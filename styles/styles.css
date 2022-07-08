@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-expand-lg {
+    background-color: #0d6dfd4d !important;
+    font-size: 1.44rem;
+    font-weight: 500;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+.container-fluid {
+    margin: 0 0 0 50px;
+}
+nav div {
+    display: flex !important;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 50px;
+    padding: 7px;
+}
+h1 {
+    text-align: center;
+    padding-top: 100px;
+}
+.card {
+    text-align: center;
+    margin: 50px 130px 0 130px;
+}
+.card-body {
+    width: 18rem;
+}
+.card .row {
+    margin: 50px;
+}
+h2 {
+    text-align: center;
+    margin: 50px 0;
+}
+.cart {
+    margin: 0 100px;
+}
+.cart-row-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 600;
+    font-size: 1.2rem;
+}
+.cart-items .cart-row {
+    font-size: .9rem;
+    display: flex;
+    justify-content: space-between;
+}
+.item-pic-name {
+    width: 450px;
+}
+.price {
+    margin-right: 360px;
+}
+.cart-row input {
+    width: 35px;
+}
+.cart-total {
+    text-align: end;
+}
+.purchase-btn {
+    text-align: center;
+}
